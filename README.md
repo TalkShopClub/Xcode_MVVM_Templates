@@ -18,8 +18,3 @@ Follow these steps to configure the template:
 Upon generating the module, you may encounter an error inside the Service module, as the network dependency has been added separately. To resolve this network error, you need to clone the repository from `https://github.com/TalkShopClub/Networking`.
 
 Going forward, this will be converted to a Swift Package Manager (SPM) package for improved usability and dependency management."
-
-##Examples##
-
-<img width="864" alt="Screenshot 2023-10-13 at 5 34 13 PM" src="https://github.com/TalkShopClub/MVVM_Template/assets/145959353/033d58c6-bc37-47c2-abe1-1369ea046dae">
-
