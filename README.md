@@ -1,4 +1,4 @@
-# MVVM_Template
+# Xcode_MVVM_Templates
 The primary reason for creating a template is to save developers time when setting up a new project. By using the template, developers can quickly generate the necessary components such as viewController, stroyboard, view models, networking and model folders. Instead of creating these components manually, developers can simply add the template at the project's root level and start generating new modules directly.
 
 you can create table view cell and collection view cell templates using the same process. These templates will include predefined objects like models and delegates to facilitate and streamline your development process.
