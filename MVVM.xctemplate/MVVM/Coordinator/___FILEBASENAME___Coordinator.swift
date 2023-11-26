@@ -24,8 +24,8 @@ extension ___VARIABLE_productName___Coordinator {
         let viewModel = ___VARIABLE_productName___ViewModel()
         viewModel.output = self
         self.viewModel = viewModel
-        let identifier = ___VARIABLE_productName___ViewController.identifier
-        let viewController = UIStoryboard(name: String(describing: ___VARIABLE_productName___ViewController.self), bundle: .main).instantiateViewController(identifier: identifier) { coder in
+        let identifier = String(describing: ___VARIABLE_productName___ViewController.self)
+        let viewController = UIStoryboard(name: identifier, bundle: .main).instantiateViewController(identifier: identifier) { coder in
             ___VARIABLE_productName___ViewController(coder: coder, viewModel: viewModel)
         }
         return viewController.toPresent()
